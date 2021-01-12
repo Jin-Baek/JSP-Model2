@@ -129,7 +129,7 @@ public class MemberDAO {
 	public Connection connDB() throws Exception{
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://112.220.19.35/jinbaek", "jinbaek", "jinbaek");			
+			Connection con = DriverManager.getConnection("jdbc:mysql://___________/_______", "Your_id", "Your_password");			
 			return con;
 		}catch(Exception e) {
 			throw e;

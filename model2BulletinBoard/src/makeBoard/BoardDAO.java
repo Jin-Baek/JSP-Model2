@@ -296,7 +296,7 @@ public class BoardDAO {
 	public Connection connDB() throws Exception{
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@112.220.19.35:1521:ORCL", "training", "training");			
+			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@________:ORCL", "Your_ID", "Your_password");			
 			return con;
 		}catch(Exception e) {
 			throw e;
